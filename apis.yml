@@ -1,8 +1,13 @@
 aid: moonwalk-biosciences
 name: Moonwalk Biosciences
-description: 'Moonwalk Biosciences is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Moonwalk Biosciences is a preclinical biotechnology company pioneering
+  therapeutics in adipose biology driven by deep genetic and epigenetic insights.
+  Co-founded by Feng Zhang, Alex Aravanis, Arash Jamshidi and Justin Valley, the company
+  developed a multiplex epigenetic engineering platform and has publicly shifted its
+  focus toward siRNA-based obesity and cardiometabolic therapies. It is a private,
+  research-stage drug-discovery organization backed by GV; its public surface is a
+  corporate/marketing website covering its science, pipeline, team, careers and news,
+  with no public API, developer portal, or machine-readable discovery documents.'
 url: https://raw.githubusercontent.com/api-evangelist/moonwalk-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://moonwalk.bio/wp-content/uploads/2023/12/icon.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Therapeutics
+- Epigenetics
+- Drug Discovery
+- Obesity
+- Cardiometabolic
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moonwalk-biosciences-domain-security.yml
 - type: Website
   url: https://moonwalk.bio
+- type: Blog
+  url: https://moonwalk.bio/news/
+- type: Support
+  url: https://moonwalk.bio/contact/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/moonwalk-biosciences/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

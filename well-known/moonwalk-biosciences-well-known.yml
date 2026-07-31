@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of https://moonwalk.bio/.well-known/*
+host: https://moonwalk.bio
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /security.txt
+  status: 404
+notes: No .well-known discovery surface published. Marketing/corporate WordPress
+  site with no API, developer portal, or machine-readable discovery documents.
